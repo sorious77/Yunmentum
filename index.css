@@ -58,7 +58,8 @@ main {
   border: none;
 }
 
-.inputToDo {
+.inputToDo,
+.inputName {
   background-color: transparent;
   border: none;
   border-bottom: 2px solid black;

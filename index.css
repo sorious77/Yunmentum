@@ -49,6 +49,16 @@ main {
   font-size: 100px;
 }
 
+.inputName {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
 .name {
   font-size: 60px;
 }
@@ -58,8 +68,7 @@ main {
   border: none;
 }
 
-.inputToDo,
-.inputName {
+.inputToDo {
   background-color: transparent;
   border: none;
   border-bottom: 2px solid black;

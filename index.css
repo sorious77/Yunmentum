@@ -1,0 +1,86 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.yunmentum {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: visible;
+  height: 100%;
+}
+
+.weather {
+  text-align: right;
+  vertical-align: middle;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.weatherInfo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 25px;
+  color: black;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.locationInfo {
+  margin: 10px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 0;
+  position: absolute;
+  bottom: 10px;
+}
+
+.clock {
+  font-size: 100px;
+}
+
+.name {
+  font-size: 60px;
+}
+
+.delBtn {
+  background-color: transparent;
+  border: none;
+}
+
+.inputToDo {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+}
+
+.toDoUl {
+  justify-self: flex-end;
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+}
+
+.toDoUl li {
+  list-style: none;
+  font-size: 20px;
+}
